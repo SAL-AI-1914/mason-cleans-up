@@ -18,13 +18,16 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full bg-white-base/95 backdrop-blur-sm border-b border-steel/20 shadow-mjr-sm">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Logo */}
-          <div className="flex-shrink-0">
+          {/* Logo and Business Name */}
+          <div className="flex items-center space-x-3">
             <img 
               src={mjrLogo} 
               alt="Mason's Junk Removal"
               className="h-10 md:h-12 w-auto"
             />
+            <h1 className="text-xl md:text-2xl font-bold text-primary uppercase tracking-wider">
+              MASON'S JUNK REMOVAL
+            </h1>
           </div>
 
           {/* Desktop Navigation */}
